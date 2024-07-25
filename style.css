@@ -1,0 +1,171 @@
+* {
+    margin: 0px;
+    padding: 0%;
+    font-family: Arial;
+    border: border-box;
+}
+
+
+.header{
+height: 80px;
+background-color: black;
+color: white;
+display: flex;
+align-items: center;
+justify-content: space-evenly ;
+
+}
+
+
+.logo
+{
+background-image: url("img.jpg");
+background-color: black;
+background-size: cover;
+}
+
+/* box2 */
+
+.add-first{
+    color: white;
+    font-size: 0.85rem;
+    margin: 5px;
+
+}
+.header .address p:hover{
+    border: 2px #fff;
+    background-color: #fff;
+    cursor: pointer;
+    position: relative;
+
+}
+
+.add-second{
+
+font-size: 1rem;
+margin: 1px;
+}
+.icon{
+    display: flex;
+    align-items: center;
+
+    /* box 3 */
+}
+.search{
+    display: flex;
+    justify-content: space-evenly;
+    background-color: lightblue;
+    height: 40px;
+    width: 600px;
+    border-radius: 2px;
+}
+
+.all{
+
+    background-color: lightgray;
+    border-top-left-radius:2px;
+    border-bottom-right-radius: 2px;
+    width: 60px;
+    text-align: center;
+    border: none;
+    
+
+}
+
+.placeholder{
+    width: 500px;
+    text-size-adjust: 100px;
+    font-size: 1rem;
+    border: none;
+}
+.sicon
+{
+    width: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1rem;
+    border: none;
+    background-color: orange;
+    border-top-left-radius: 2px ;
+    border-bottom-right-radius: 2px ;
+    color: black;
+}
+
+.search:hover{
+    border: 2px solid orange;
+
+}
+
+
+span {
+    font-size: 0.7rem;
+}
+
+.nav{
+    font-size: 0.85rem;
+    font-weight: 600;
+}
+
+.cart i{
+     font-size: 35px; 
+
+}
+
+.cart{
+    font-size: 0.9rem;
+    font-weight: 700;
+}
+
+
+/* second-header */
+
+/* .second{
+
+    background-color: #575e5e;
+    height: 40px;
+    color: white;
+    align-items: center;
+    justify-content: space-evenly;
+    background-size: cover;
+
+} */
+.second{
+height: 40px;
+background-color: #575e5e;
+color: white;
+display: flex;
+align-items: center;
+justify-content: space-evenly ;
+
+}
+.cheatsheet i{
+    font-size: 30px;
+    color: white;
+    
+}
+
+.cheatsheet{
+    width: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1rem;
+    border: none;
+    text-align: center;
+    border-top-left-radius: 2px;
+    border-bottom-right-radius: 2px ;
+    color: black;
+}
+.all{
+    font-size: 25px;
+    background-color: #575e5e;
+    color: white;
+    font-size: 0.80;
+    margin: 4px;
+}
+
+.sprite{
+    color: white;
+    
+}
